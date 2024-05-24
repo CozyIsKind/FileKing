@@ -17,4 +17,6 @@ def list_files_by_size(directory):
 if __name__ == "__main__":
     directory = input("Enter directory path: ")
     list_files_by_size(directory)
+get_files_in_directory(directory)
+list_files_by_size(directory)
 
